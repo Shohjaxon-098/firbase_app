@@ -45,20 +45,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDz0GDL3KLONb4FBA-dba5WFTad2XRbulA',
-    appId: '1:794872075735:web:db56637b6a53e119baa792',
-    messagingSenderId: '794872075735',
-    projectId: 'firbase-app1',
-    authDomain: 'firbase-app1.firebaseapp.com',
-    storageBucket: 'firbase-app1.appspot.com',
+    authDomain: "firbase-app1.firebaseapp.com",
+    storageBucket: "firbase-app1.appspot.com",
+    apiKey: "AIzaSyDz0GDL3KLONb4FBA-dba5WFTad2XRbulA",
+    appId: "1:794872075735:web:394d59c6f0457d17baa792",
+    messagingSenderId: "794872075735",
+    projectId: "firbase-app1",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBpQU44Xbq07nZbbwyMr2qWGBukLQNhImw',
-    appId: '1:794872075735:android:285fcfb7d827a4eabaa792',
-    messagingSenderId: '794872075735',
-    projectId: 'firbase-app1',
-    storageBucket: 'firbase-app1.appspot.com',
+    storageBucket: "firbase-app1.appspot.com",
+    apiKey: "AIzaSyDz0GDL3KLONb4FBA-dba5WFTad2XRbulA",
+    appId: "1:794872075735:web:394d59c6f0457d17baa792",
+    messagingSenderId: "794872075735",
+    projectId: "firbase-app1",
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
