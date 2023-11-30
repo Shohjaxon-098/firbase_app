@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "794872075735",
-    "project_id": "firbase-app1",
-    "storage_bucket": "firbase-app1.appspot.com"
+    "project_number": "741599270770",
+    "project_id": "flutter-app-54e46",
+    "storage_bucket": "flutter-app-54e46.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:794872075735:android:285fcfb7d827a4eabaa792",
+        "mobilesdk_app_id": "1:741599270770:android:2d27c9688addc79c336feb",
         "android_client_info": {
           "package_name": "com.example.firbase_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBpQU44Xbq07nZbbwyMr2qWGBukLQNhImw"
+          "current_key": "AIzaSyA8iiSCJ4uH0qz55jFB81DUsDtN3SMq8u0"
         }
       ],
       "services": {

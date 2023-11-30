@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDhjXKL1pcH0q-EvkOP9Q1KUhgkGHKBS7Y</string>
+	<string>AIzaSyDntEd09Cz03tBb8rccsPke4UvPpsIrtgw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>794872075735</string>
+	<string>741599270770</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.firbaseApp</string>
 	<key>PROJECT_ID</key>
-	<string>firbase-app1</string>
+	<string>flutter-app-54e46</string>
 	<key>STORAGE_BUCKET</key>
-	<string>firbase-app1.appspot.com</string>
+	<string>flutter-app-54e46.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:794872075735:ios:fd1d9489c5a2df78baa792</string>
+	<string>1:741599270770:ios:48da07a62c63a561336feb</string>
 </dict>
 </plist>
