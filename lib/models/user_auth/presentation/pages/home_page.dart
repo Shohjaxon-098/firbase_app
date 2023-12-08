@@ -19,41 +19,43 @@ class _HomePageState extends State<HomePage> {
           automaticallyImplyLeading: false,
           title: Text("HomePage"),
         ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Center(
-                child: Text(
-              "Welcome Home buddy!",
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 19),
-            )),
-            SizedBox(
-              height: 30,
-            ),
-            GestureDetector(
-              onTap: () {
-                FirebaseAuth.instance.signOut();
-                Navigator.pushNamed(context, "/login");
-                showToast(message: "Successfully signed out");
-              },
-              child: Container(
-                height: 45,
-                width: 100,
-                decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(10)),
-                child: Center(
+        body: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Center(
                   child: Text(
-                    "Sign out",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                "Welcome Home buddy!",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 19),
+              )),
+              SizedBox(
+                height: 30,
+              ),
+              GestureDetector(
+                onTap: () {
+                  FirebaseAuth.instance.signOut();
+                  Navigator.pushNamed(context, "/login");
+                  showToast(message: "Successfully signed out");
+                },
+                child: Container(
+                  height: 45,
+                  width: 100,
+                  decoration: BoxDecoration(
+                      color: Colors.blue,
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Center(
+                    child: Text(
+                      "Sign out",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18),
+                    ),
                   ),
                 ),
-              ),
-            )
-          ],
+              )
+            ],
+          ),
         ));
   }
 }
